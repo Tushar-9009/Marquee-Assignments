@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box-container{
+    background-color: rgb(242, 234, 234);
+    /* margin-top: 0px 20px; */
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+  height: 115vh;
+  margin: 0px 30px;
+  border: 1px solid rgb(249, 249, 249);
+  border-radius: 5px;
+  background-color: rgb(250, 248, 248);
+  width: 97%;
+  /* padding: 20px;  */
+}
+.sign {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height:40px;
+  align-items: center;
+  /* width: 100%; */
+}
+.start {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 40px;
+  background-color: white;
+}
+#btn {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid white;
+  margin-right: 40px;
+  width: 60px;
+}
+.water {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(https://img.magnific.com/free-photo/sky-sea-april-01-2024_58702-17003.jpg?semt=ais_hybrid&w=740&q=80);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.water h1{
+    color:white;
+    font-size:40px;
+    background-color: none;
+}
+.mail{
+    display:flex;
+    margin-top:20px;
+    gap:0;
+
+}
+#enter{
+    width:400px;
+    height:28px;
+}
+#up{
+    background-color:rgb(57, 57, 221);
+    border:none;
+    color:white;
+    /* display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    /* width: 50px; */
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+    height:200px;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    gap:20px;
+}
+.box i{
+    font-size: 40px;
+    color: blue;
+}
+p{
+    text-align: center;
+}
